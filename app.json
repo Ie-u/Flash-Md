@@ -54,7 +54,7 @@
     "BOT_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"private",
+      "value":"public",
       "required":false
     }
         ,
@@ -70,7 +70,7 @@
     "SESSION_ID":
     {
       "description":"put your session ID , make sure it starts with FLASH-MD-WA-BOT...",   
-      "value":"",
+      "value":"FLASH-MD-WA-BOT;;;=>eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoid0xMUDZZU0NkcE1TZENnVG1lSHlqd3FVUlFBdjROVFhwVE1FQ1BkYzYzZz0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoidTQzWWRjdlBkWWNEd3AraE51dUFoWStrczdhMFZSWjZ1THhaRU9aYktRND0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPTG1oOFM0RVRQbkxqM1QwVWE0M25jb0Z2NWFVbXdyUC90SDg4UTVPOUdrPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJoM1NtdnFqQ21ja1JndS9XZVNTWDYwMlB3ZlVVRUw1alo1NGE3eklIZUQwPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IldBcG9tOW9pdEs3K282b053N0FBa1ZwaHdYcEMwVUpuL0daZm0zWEs0VTg9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImV4cStYdkFDVDVSbU5ZNytnakxPczZodEVFMEtJMjVGQ3c4WUMvQXlWajA9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQ0ZZZzE4Ti9IRDY1VEQ1Y2U1Z2RRM0RsZThnWmc4bkR5NDIyUzhkdGdXMD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoieTQ3alJUcUwvWjZBSmlLdnVYSnNCY2hDMkttYjdqdFhkRWlQODliamhEYz0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IkR2SGtkdytzN2Z2SHRNZW0wcklkdXhydlV4dmxIYXdGcUlwUDdsMDBiL2xPUmN0U0xPWmhIamc3MGh3d2hiSVVmdFloUkRJR2hObndad09sSnVNb2hRPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MjI2LCJhZHZTZWNyZXRLZXkiOiJjdVcrRmdrTmxFb2Q4aWt4M1ZxbzB0b3dEWVl2R1dhUzdiV2R6MWJCUVJnPSIsInByb2Nlc3NlZEhpc3RvcnlNZXNzYWdlcyI6W10sIm5leHRQcmVLZXlJZCI6MzEsImZpcnN0VW51cGxvYWRlZFByZUtleUlkIjozMSwiYWNjb3VudFN5bmNDb3VudGVyIjowLCJhY2NvdW50U2V0dGluZ3MiOnsidW5hcmNoaXZlQ2hhdHMiOmZhbHNlfSwiZGV2aWNlSWQiOiJpMVVubmMzMVJ0T2NtMW0tUmZ0cmp3IiwicGhvbmVJZCI6ImM5N2UwMWMxLTYwMjctNDlkOS05ZWE5LTBhYjUyZWNlZWUzZiIsImlkZW50aXR5SWQiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJTbURIdFBCTFNVd3M5WVc5NVZYUHpzeUl3UDA9In0sInJlZ2lzdGVyZWQiOnRydWUsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiMDFCajBScDlrRjFvbURtOUQ1QXB4bG4wT0MwPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJwYWlyaW5nQ29kZSI6IkUyRDFNWkdZIiwibWUiOnsiaWQiOiIyNTQ3NDM0MTYyODM6MTJAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiQ1lOVVggVEVDSCJ9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDSmpmbkp3QkVNeTRsTFVHR0FVZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiZFU3dVpGV1lPdnJiZlZ1Qm1OY3AzVXBmR3V1cWxNTTU3MCt5TUJQSkRqUT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiNDFtcFlNNWFKYnc3bS81WEI1UmF0S2NvK3lzYkovakcxak8xVGx3QmU3dVNKRTZCUTdpcEpaS1krSXNEaHF6N1dRVC9yWHBwK2w5YkVCNTFHUzdQQnc9PSIsImRldmljZVNpZ25hdHVyZSI6ImZvanFkaVRkOVZaWHpQcXZBVmN2Y3drQ2Q1Zzd4ekxIK3Rqc01hMFB2bjh6emZwMkpwOGdYUjdWN2FWMFpabXUza2kxbVYyeHJYbVVNbXNMU3dPSGlRPT0ifSwic2lnbmFsSWRlbnRpdGllcyI6W3siaWRlbnRpZmllciI6eyJuYW1lIjoiMjU0NzQzNDE2MjgzOjEyQHMud2hhdHNhcHAubmV0IiwiZGV2aWNlSWQiOjB9LCJpZGVudGlmaWVyS2V5Ijp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiQlhWTzdtUlZtRHI2MjMxYmdaalhLZDFLWHhycnFwVERPZTlQc2pBVHlRNDAifX1dLCJwbGF0Zm9ybSI6ImFuZHJvaWQiLCJsYXN0QWNjb3VudFN5bmNUaW1lc3RhbXAiOjE3MjIwOTY3NTl9",
       "required": true
 
     },
@@ -79,14 +79,14 @@
 
     "desc": "Your Name",
     "required": false,
-    "value": "France King"
+    "value": "CALDEN"
   },
     "OWNER_NUMBER":
   {
 
     "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
     "required":false,
-    "value": "254751284190"
+    "value" "254743416283"
   },
     "WARN_COUNT":
   {
